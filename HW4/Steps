@@ -1,0 +1,26 @@
+Steps followed to complete Assignment:
+
+1. Downloaded and installed VitualBox VM.
+2. Created a Virtual machine.
+3. Downloaded Ubuntu16
+4. Mounted Ubuntu on Virtual machine.
+5. Installed Ubuntu on Virtual machine.
+6. Installed guest additions.
+7. Downloaded the latest version of Java and configured it in ubuntu.
+8. Downloaded and installed Solr7.7.0
+9. Ran some examples on solr which included:
+	a) Launching Solr7	
+	b) Creating core 
+	c) Inserting and Indexing Data using Apache Tika.
+	d) Basic searching
+10. Created a core called myexample 
+11. Indexed all the html files into that core using Apache Tika.
+12. Queried on those files using Solr Dashboard.
+13. Extracted the link structure from the downloaded web pages using JSOUP library in JAVA.
+14. Created a php page to query from solr.
+15. Installed and configured Solr-php-Client.
+16. Queried using php from solr using/on Lucene first.
+17. Computed pageRank on all the extracted links using NotworkX library. (Explain More, Initial configuration is in the python code)
+		alpha=0.85, personalization=None, max_iter=30, tol=1e-06, nstart=None, weight='weight',dangling=None 
+18. Inserted the external_pageRank file in the data folder of my core and reloaded the core.
+19. Queried the data on the given parameters and compared the results of the two algorithms.
