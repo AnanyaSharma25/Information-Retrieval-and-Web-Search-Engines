@@ -20,7 +20,7 @@ class SearchEngine:
             url = 'https://www.ask.com/web?q=testn&page=2' + temp_url
             soup = BeautifulSoup(requests.get(url, headers=USER_AGENT).text, "html.parser")
             new_result = SearchEngine.scrape_search_result(soup)
-        new_results.extend(new_result)
+            new_results.extend(new_result)
         return new_results
     
     @staticmethod
