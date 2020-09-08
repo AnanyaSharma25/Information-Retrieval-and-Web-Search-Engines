@@ -1,0 +1,42 @@
+Name: Ananya Sharma
+USC ID: 4221566769
+News site crawled: usatoday.com
+Number of threads: 7
+
+
+Fetch Statistics
+=====================
+# fetches attempted: 20000
+# fetches succeeded: 17207
+# fetches aborted: 89
+# fetches failed: 2704
+
+Outgoing URLs
+=====================
+Total URLS extracted: 1978157
+# unique URLs extracted: 702925
+# unique URLs within newssite: 652108
+# unique URLs outside newssite: 50817
+
+Status Codes
+=====================
+200 OK: 17207
+301 Moved Permanently: 2089
+303 null: 605
+307 null: 10
+404 Not Found: 11
+500 Internal Server Error: 17
+502 null: 61
+
+File Size
+=====================
+< 1KB: 3
+1KB ~ <10KB: 13
+10KB ~ <100KB: 1777
+100KB ~ <1MB: 15372
+>= 1MB: 42
+
+Content Types
+=====================
+text/html: 17192
+
